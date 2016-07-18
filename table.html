@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+                    
+        .white1 {
+            height: 46px;
+            border-right: 10px solid black;
+        }
+        
+        .white2 {
+            width: 48px;
+            height: 120px;
+            border-top: 10px solid black;
+            border-bottom: 10px solid black;
+        }
+        
+        .red {
+            background: url(img/red.png);
+            border: 10px solid black;
+        }
+        
+        .yellow1 {
+            background: url(img/yellow.png);
+            border-bottom: 10px solid black;
+            border-left: 10px solid black;
+        }
+        
+        .yellow2 {
+            background: url(img/yellow.png);
+            border-bottom: 10px solid black;
+        }
+        
+        .white4 {
+            border-left: 10px solid black;
+            width: 75px;
+            height: 130px
+        }
+        
+        .white5 {
+            width: 126px;
+            height: 60px;
+            border-top: 10px solid black;
+            border-right: 10px solid black;
+        }
+        
+        .white6 {
+            border-bottom: 10px solid black;
+            border-top: 10px solid black;
+        }
+        
+        .yellow3 {
+            background: url(img/yellow.png);
+            border-top: 10px solid black;
+            border-right: 10px solid black;
+        }
+        
+        .small-black-square {
+            width: 60px;
+            height: 60px;
+            background: url(img/black.png);
+            border: 10px solid black;
+        }
+        
+        .blue {
+            background: url(img/blue.png);
+            border-bottom: 10px solid black;
+        }
+        
+        .small-black {
+            height: 32px;
+            border: 10px solid black;
+            background: url(img/black.png);
+        }
+        .white7{
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" class="white1"></td>
+                <td colspan="2"></td>
+                <td colspan="2" class="yellow1"></td>
+            </tr>
+            <tr>
+                <td class="white2"></td>
+                <td rowspan="2" colspan="3" class="red"></td>
+                <td colspan="2" class="yellow2"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td class="white4"></td>
+                <td class="white4"></td>
+            </tr>
+            <tr>
+                <td class="small-black-square"></td>
+                <td class="small-black-square"></td>
+                <td class="white5"></td>
+                <td colspan="2" class="white6"></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="yellow3"></td>
+                <td class="small-black-square"></td>
+                <td class="small-black-square"></td>
+                <td class="white5"></td>
+                <td rowspan="2" colspan="2" class="blue"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2"></td>
+                <td class="small-black"></td>
+            </tr>
+            <tr>
+
+                <td colspan="3" class="white7"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
